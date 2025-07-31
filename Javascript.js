@@ -31,6 +31,6 @@ function clalculator(){
          let result = eval(expression);
         display.innerText = result.toFixed(2);
     } catch (e){
-        display.innerText = "Error";
+      alert("Wrong Input! Try Again!");
     }
 }
